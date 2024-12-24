@@ -1,10 +1,10 @@
 /*
 Go Arrays
-Arrays are used to store multiple values of the same type in a single variable, 
+Arrays are used to store multiple values of the same type in a single variable,
 instead of declaring separate variables for each value.
 অ্যারেগুলি প্রতিটি মানের জন্য পৃথক ভেরিয়েবল ঘোষণা করার পরিবর্তে একটি একক
-ভেরিয়েবলে একই ধরণের একাধিক মান সংরক্ষণ করতে ব্যবহৃত হয়। 
- 
+ভেরিয়েবলে একই ধরণের একাধিক মান সংরক্ষণ করতে ব্যবহৃত হয়।
+
 
               // Declare an Array
 In Go, there are two ways to declare an array:
@@ -16,7 +16,7 @@ var array_name = [length]datatype{values} // here length is defined
 or
 var array_name = [...]datatype{values} // here length is inferred
 
-           
+
                // 2. With the := sign:
 Syntax:
 array_name := [length]datatype{values} // here length is defined
@@ -27,7 +27,7 @@ array_name := [...]datatype{values} // here length is inferred
 
 
 Note: The length specifies the number of elements to store in the array.
-In Go, arrays have a fixed length. The length of the array is either 
+In Go, arrays have a fixed length. The length of the array is either
 defined by a number or is inferred (means that the compiler decides the
 length of the array, based on the number of values).
 
@@ -104,7 +104,7 @@ func main() {
 You can also change the value of a specific array element by referring to the index number.
 
 Example: 05
-This example shows how to change the value of the third element in the prices array: 
+This example shows how to change the value of the third element in the prices array:
 
 package main
 import ("fmt")
@@ -150,7 +150,7 @@ Result:
 It is possible to initialize only specific elements in an array.
 
 Example
-This example initializes only the second and third elements of the array: 
+This example initializes only the second and third elements of the array:
 
 package main
 import ("fmt")
@@ -163,7 +163,7 @@ func main() {
 Result:
 
 [0 10 40 0 0]
-Example Explained: 
+Example Explained:
  The array above has 5 elements.
 
 1:10 means: assign 10 to array index 1 (second element).
@@ -191,4 +191,3 @@ Result:
 6
 
 */
-
