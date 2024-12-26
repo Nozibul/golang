@@ -44,11 +44,11 @@ This repository is a comprehensive guide to learning Go, starting from basic syn
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/go-basics-to-advanced.git
+   git clone https://github.com/Nozibul/golang.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd go-basics-to-advanced
+   cd golang
    ```
 3. Run the Go files:
    ```bash
@@ -86,33 +86,6 @@ This repository is a comprehensive guide to learning Go, starting from basic syn
 - Write idiomatic Go code by following the [Effective Go](https://golang.org/doc/effective_go.html) guide.
 - Use comments to document complex logic.
 - Write tests to ensure code reliability and maintainability.
-
----
-
-## Contributing
-
-Contributions are welcome! If you have ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes with a meaningful message:
-   ```bash
-   git commit -m "Add feature description"
-   ```
-4. Push your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
