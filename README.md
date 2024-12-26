@@ -48,7 +48,7 @@ This repository is a comprehensive guide to learning Go, starting from basic syn
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Golang
+   cd golang
    ```
 3. Run the Go files:
    ```bash
